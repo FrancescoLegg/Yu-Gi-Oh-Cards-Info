@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f8f8f8;  
+    justify-content: center;
+}
+  
+  .flex-container > div {
+    background-color: #ffbf00;
+    aspect-ratio: 479 / 698;
+    margin: 10px;
+    padding : 20px;
+    cursor: pointer;
+}
+
+.flex-container img{
+    aspect-ratio: 479 / 698;
+    height: 45vh;
+}
+
+.flex-container h2{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    word-wrap: wrap;
+}

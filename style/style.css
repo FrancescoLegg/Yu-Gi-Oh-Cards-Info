@@ -1,0 +1,48 @@
+*{
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    background-color: #ffbf00;
+}
+
+
+#mainTitle{
+    background-color: rgb(69, 69, 69);
+    font-size: 70px;
+}
+
+.Logo img{
+    height: 130px;
+    padding: 15px;
+}
+
+.Logo h1{
+    color: white;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+#InputText{
+    margin-right: 50px;
+    font-size: 16px;
+    border-radius: 4px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    height: 30px;
+    :hover {
+        border-color: #ccc;
+    }
+    :focus{
+        border-color: #9147ff;
+        background: #fff;
+    } 
+}
+
+
+
